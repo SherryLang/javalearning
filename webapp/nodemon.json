@@ -1,0 +1,17 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    ".svn",
+    "temp",
+    "files",
+    "public",
+    "node_modules",
+    "conf"
+  ],
+  "verbose": true,
+  "watch": [
+    "bin"
+  ],
+  "ext": "js json"
+}
