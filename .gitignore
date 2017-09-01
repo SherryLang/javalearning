@@ -1,3 +1,19 @@
+# database
+h2/
+
+# Misc
+*~
+.#*
+dependency-reduced-pom.xml
+.DS_Store
+data/
+tmp/
+*.sw[op]
+classes/
+.new-relic/
+test.log
+logs/
+work/
 *.class
 
 # Mobile Tools for Java (J2ME)
@@ -7,6 +23,44 @@
 *.jar
 *.war
 *.ear
+.mvn/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Eclipse
+# > the following should be created by `./gradlew eclipse`
+.classpath
+.project
+
+# > ignore all eclipse settings by default
+.settings
+# > except the following, primarily for formatting purposes
+!.settings/org.eclipse.jdt.core.prefs
+!.settings/org.eclipse.jdt.ui.prefs
+!.settings/org.eclipse.wst.html.core.prefs
+# > other misc eclipse artifacts
+.springBeans
+bin
+atlassian-ide-plugin.xml
+
+# IDEA
+.idea
+*/.idea
+*.iml
+*.ipr
+*.iws
+out
+/target
+
+# Gradle
+.gradle
+build
+/build
+
+
+# jspm
+jspm_packages/
+npm-debug.log
+*/target/
+node_modules
